@@ -1,33 +1,44 @@
-ul {
-    list-style-type: none;
+/* nav bar */
+* {
     margin: 0;
     padding: 0;
-  }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
 }
-  
-
-li {
-    float: left;
+.header {
+    width: 100%;
 }
-
-
-li a {
+.menu {
+    background-color: #474747;
+    
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    color: #FFFFFF;
+    padding: 30px 10px;
+}
+.main {
+    padding: 50px 0;
+}
+.content {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    background-color: #eff0f1;
+    height: 1000px;
+}
+.content h1 {
+    margin-bottom: 30px;
+}
+.footer {
+    background-color: #eff0f1;
+   
+  
 }
 
 
-/* Change the link color to #111 (black) on hover */
+/* cor do fundo qundo passa o mause no botão */
 li a:hover {
-    background-color: #111;
+    background-color: #b53838;
 }
