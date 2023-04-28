@@ -1,6 +1,5 @@
 body {
   font-family: Arial;
-  padding: 10px;
   background: #f1f1f1;
 }
 /* nav bar */
@@ -9,10 +8,20 @@ body {
     padding: 0;
 }
 
+header{
+  height: 200%;
+  width: 100;
+  background-image: url("img/banner.jpg");
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  padding-right: 30px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+}
+
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+   
     overflow: hidden;
     background-color: #333;
   }
